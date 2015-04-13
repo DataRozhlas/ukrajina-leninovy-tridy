@@ -10,6 +10,7 @@ externalStyles =
 
 externalData =
   "lenin": "#__dirname/data/lenin.topo.json"
+  "ukraine": "#__dirname/data/ukrajina.topo.json"
 
 preferScripts = <[ postInit.js _loadData.js ../data.js init.js _loadExternal.js]>
 deferScripts = <[ Graph.js base.js ]>
