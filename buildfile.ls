@@ -3,15 +3,13 @@ require! async
 process.chdir __dirname
 
 externalScripts =
-  \https://samizdat.cz/tools/tooltip/v1.1.4.d3.js
   ...
 
 externalStyles =
-  \https://samizdat.cz/tools/tooltip/v1.1.4.css
   ...
 
-externalData = {}
-  # "leky": "#__dirname/data/leky.tsv"
+externalData =
+  "lenin": "#__dirname/data/lenin.topo.json"
 
 preferScripts = <[ postInit.js _loadData.js ../data.js init.js _loadExternal.js]>
 deferScripts = <[ Graph.js base.js ]>
