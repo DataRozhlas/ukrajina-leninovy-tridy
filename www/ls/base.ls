@@ -22,6 +22,7 @@ streets = L.geoJson do
   style: ->
     color: \red
   onEachFeature: (feature, layer) ->
-    layer.bindPopup feature.properties.name
+
+    layer.bindPopup "#{feature.properties.name}<br>#{ig.transliterate feature.properties.name}"
 
 streets.addTo map
