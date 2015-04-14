@@ -3,9 +3,9 @@ mapElement = document.createElement \div
 ig.containers.base.appendChild mapElement
 map = L.map do
   * mapElement
-  * minZoom: 6,
+  * minZoom: 5,
     maxZoom: 14,
-    zoom: 6,
+    zoom: 5,
     center: [51.26191485308454, 32.2119140625]
     maxBounds: [[44.0560,21.6210], [52.7495,41.0449]]
 
